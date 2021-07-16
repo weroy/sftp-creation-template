@@ -73,7 +73,7 @@ resource containergroup 'Microsoft.ContainerInstance/containerGroups@2019-12-01'
           ]
           volumeMounts: [
             {
-              mountPath: '/home/${sftpUser}/upload'
+              mountPath: '/home/${sftpUser}/FTP'
               name: 'sftpvolume'
               readOnly: false
             }
